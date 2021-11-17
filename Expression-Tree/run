@@ -1,0 +1,5 @@
+
+cc -c main.c stack.c expr_tree.c
+cc main.o stack.o expr_tree.o
+./a.out
+rm main.o stack.o expr_tree.o

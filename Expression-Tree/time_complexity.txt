@@ -1,0 +1,13 @@
+
+
+1) Init Function : In init function O(n) time will be required to read input from user,
+during generation of expression tree each character is visited only once(i.e. O(n) time complexity),
+for this internal stack functions are used having O(1) time complexity so overall time complexity will be, 
+	Init Fun time complexity = O(n) + O(n) + O(1) = O(n)
+
+
+2) Traverse Function : In traverse function each node is visited only once.
+	Traverse fun time complexity = O(n)
+
+3) Compute Function : In compute function each node is visited only once(i.e. O(n) time complexity) with internal subexpression is evaluated in O(1) time complexity , so overall time complexity will be, 
+	Compute Fun time complexity = O(n) + O(1) = O(n)
